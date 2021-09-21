@@ -1,0 +1,72 @@
+body {background-color:rgb(247, 241, 211); width: 90%;margin: auto;}
+header {
+    display: flex;
+    margin-top: 20px;
+}
+header #avatar {
+    width: 10%;
+}
+header #avatar img {
+    width: 100%; 
+}
+header #tittle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header #tittle h1 {
+    font-size: 50px;
+    color: rgb(236, 124, 79);
+}
+section .iconw {
+    width: 100%;
+    text-align: center;
+}
+section .wrap-content {
+    text-align: justify;
+}
+section .iconw img {
+    width: 4%;
+}
+section .contact {
+    display: flex;
+    margin-bottom: 20px;
+}
+section .contact .contact1 {
+    width: 33%;
+}
+section .contact .contact1 img {
+    width: 5%;
+}
+section .content {
+    display: flex;
+    margin-bottom: 20px;
+   
+}
+section .content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right: 3px dashed rgb(236, 124, 79);
+}
+section .content-left h2 {margin-bottom: 30px;color: rgb(236, 124, 79);}
+section .content-left .p1 img {width: 4%;}
+section .content-left .p1 span {margin-right: 20px;}
+section .content-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    line-height: 13px;
+}
+.content-right h2 {color: rgb(236, 124, 79);margin-bottom: 10px;}
+footer {
+    display: flex;
+    margin: 10px 0;            
+}
+footer .footer {
+    width: 25%;
+} 
+footer .footer img {
+    width: 6%;
+}
